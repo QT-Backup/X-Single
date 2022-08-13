@@ -12,6 +12,7 @@ PLAIN='\033[0m'
 # 以下网站是随机从Google上找到的无广告小说网站，不喜欢请改成其他网址，以http或https开头
 # 搭建好后无法打开伪装域名，可能是反代小说网站挂了，请在网站留言，或者Github发issue，以便替换新的网站
 SITES=(
+https://www.hulu.com/
 http://www.zhuizishu.com/
 http://xs.56dyc.com/
 #http://www.xiaoshuosk.com/
@@ -277,7 +278,6 @@ getData() {
             if [[ -z "${res}" ]]; then
                 colorEcho ${BLUE}  "${DOMAIN} 解析结果：${resolve}"
                 colorEcho ${RED}  " 域名未解析到当前服务器IP(${IP})!"
-                exit 1
             fi
         fi
     fi
