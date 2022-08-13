@@ -1,4 +1,5 @@
 ## V2ray
+bash <(curl -sL https://raw.githubusercontent.com/daveleung/hijkpw-scripts-mod/main/xray_mod1.sh)
 
 【3】V2ray带伪装一键脚本CentOS版
 
